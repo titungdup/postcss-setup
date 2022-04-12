@@ -1,0 +1,15 @@
+{
+  "extends": ["stylelint-config-rational-order", "stylelint-config-prettier"],
+  "plugins": ["stylelint-order"],
+  "rules": {
+    "color-no-invalid-hex": true,
+    "font-family-no-duplicate-names": true,
+    "plugin/rational-order": [
+      true,
+      {
+        "empty-line-between-groups": true
+      }
+    ]
+  },
+  "ignoreFiles": "dist/**/*.css"
+}

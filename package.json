@@ -1,0 +1,23 @@
+{
+  "name": "postcss-setup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "postcss assets/css/main.css --dir dist/css",
+    "watch": "postcss assets/css/main.css --dir dist/css --watch"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "cssnano": "^5.1.5",
+    "postcss": "^8.4.12",
+    "postcss-cli": "^9.1.0",
+    "postcss-import": "^14.0.2",
+    "postcss-nested": "^5.0.6",
+    "postcss-preset-env": "^7.4.3",
+    "stylelint": "^14.6.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-order": "^5.0.0"
+  }
+}
